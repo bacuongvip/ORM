@@ -21,7 +21,7 @@ import java.io.IOException;
 @EnableWebMvc
 @ComponentScan(basePackages = {"ra.controller","ra.model"})
 public class AppConfig implements WebMvcConfigurer, ApplicationContextAware {
-    private String pathImage = "C:\\Users\\hung1\\DemoLogin\\hibernate-Orm\\src\\main\\webapp\\WEB-INF\\upload\\";
+    private String pathImage = "D:\\crud\\ORM - Song\\src\\main\\webapp\\WEB-INF\\upload\\";
     // cấu hình appllication Context
     private ApplicationContext applicationContext;
 
